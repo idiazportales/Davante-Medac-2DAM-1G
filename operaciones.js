@@ -3,7 +3,7 @@ export const sumar = (a, b) => {
 };
 
 export const restar = (a, b) => {
-    // Alumno 2 implementará esto
+    return a - b;
 };
 
 export const multiplicar = (a, b) => {
