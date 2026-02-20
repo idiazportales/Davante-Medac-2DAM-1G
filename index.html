@@ -3,18 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Calculadora Grupal</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Calculadora JavaScript</h1>
-    <input type="number" id="n1" placeholder="Número 1">
-    <input type="number" id="n2" placeholder="Número 2">
+   <div class="calculator-container">
+    <h1>Calculadora JS Pro</h1>
     
-    <div id="controles">
-        <button id="btnSumar">+</button> <button id="btnRestar">-</button> <button id="btnMultiplicar">x</button> <button id="btnDividir">÷</button> </div>
+    <div class="inputs-group">
+        <input type="number" id="n1" placeholder="Número 1">
+        <input type="number" id="n2" placeholder="Número 2">
+    </div>
 
-    <button id="btnResultado">Calcular Resultado</button> <p>Resultado: <span id="resultado">0</span></p>
+    <div class="operators-grid">
+        <button class="op-btn" id="btnSumar">+</button>
+        <button class="op-btn" id="btnRestar">-</button>
+        <button class="op-btn" id="btnMultiplicar">×</button>
+        <button class="op-btn" id="btnDividir">÷</button>
+    </div>
 
-    <script type="module" src="main.js"></script>
+    <button id="btnResultado">Calcular</button>
+
+    <div class="result-box">
+        <small>Resultado</small>
+        <span id="resultado">0</span>
+    </div>
+</div>
 </body>
 </html>
