@@ -6,9 +6,9 @@ export const restar = (a, b) => {
     // Alumno 2 implementará esto
 };
 
-export const multiplicar = (a, b) => {
-    // Alumno 3 implementará esto
-};
+export function multiplicar(a, b) {
+    return a * b;
+}
 
 export const dividir = (a, b) => {
     // Alumno 4 implementará esto
