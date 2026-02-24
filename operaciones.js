@@ -11,5 +11,5 @@ export function multiplicar(a, b) {
 }
 
 export const dividir = (a, b) => {
-    // Alumno 4 implementará esto
+    return a / b;
 };
