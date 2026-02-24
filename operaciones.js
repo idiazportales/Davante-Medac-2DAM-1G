@@ -3,7 +3,7 @@ export const sumar = (a, b) => {
 };
 
 export const restar = (a, b) => {
-    return a - b;  // VERSION DE FEATURE-RESTAR
+    return a - b;  // Editado
 };
 
 export function multiplicar(a, b) {
